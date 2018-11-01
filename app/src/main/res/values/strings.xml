@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Camera_lab_cyber</string>
+    <string name="first_name_edittext">First Name</string>
+    <string name="next_btn">Next</string>
+    <string name="desc_txt">Enter your name and hit the next Bottom.</string>
+    <string name="hi">Hi!</string>
+</resources>
