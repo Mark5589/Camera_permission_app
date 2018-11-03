@@ -33,21 +33,10 @@ public class SecondScreen extends Activity {
 
             //Show the name inserted
         set_textView();
-//        Intent activityCalled = getIntent();
-//        String prev_Activity = activityCalled.getExtras().getString("Name");
-//        TextView callingMessage = (TextView)findViewById(R.id.HI);
-//        callingMessage.append(" " + prev_Activity);
-        //
 
-//        Button camera_btn = (Button)findViewById(R.id.camera);
         capture = (ImageView)findViewById(R.id.image_view_camera);
 
-//        camera_btn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-////                dispatchTakePictureIntent();
-//            }
-//        });
+
 
     }
 
@@ -56,11 +45,7 @@ public class SecondScreen extends Activity {
         switch (v.getId()){
             case R.id.camera:
                 askForPermission(Manifest.permission.CAMERA,CAMERA);
-//                onRequestPermissionsResult();
-//                dispatchTakePictureIntent();
-//                int arr[] = {0};
-//                String a[] = {Manifest.permission.CAMERA};
-//                onRequestPermissionsResult(5,a,arr);
+
                 break;
 
             default:
